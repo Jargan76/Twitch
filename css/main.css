@@ -1,0 +1,59 @@
+/*   Color palette
+*   #BEDE7F  - lime green   #DCE22E  - citron
+*   #D23535 - blood orange  #E2C335  -  mustard yellow
+*   #45CBC3 - teal  #1A065D - dark navy
+*/
+main {
+    margin-top: 90px;
+}
+li, ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+#clock {
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.fa-frown-o {
+    font-size: 115%;
+    color: #A92DE3;
+}
+.playerName {
+    text-transform: uppercase;
+}
+.masthead {
+    color: inherit;
+    text-shadow: 0px 0px 5px #A92DE3;
+    opacity: 0.75;
+}
+.btn-default {
+    width: 450px;
+    margin-bottom: 0.75em;
+    color: #333;
+    box-shadow: 0px 0px 25px #A92DE3;
+    opacity: 0.55;
+
+}
+.twitch, .hand {
+    font-size: 115%;
+}
+.whiteShadow {
+    letter-spacing: 0.15em;
+    text-shadow: 0px 0px 0px #fff;
+}
+/*
+*   At media style
+*/
+@media (max-width: 758px) {
+    main {
+        margin-top:-20px;
+    }
+}
+@media (max-width: 500px) {
+    .btn-default {
+        width: 370px;
+    }
+}
