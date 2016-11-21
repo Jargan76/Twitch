@@ -19,3 +19,4 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router'
             </Route>
         </Router>
     ), document.getElementById('app'))
+

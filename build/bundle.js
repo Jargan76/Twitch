@@ -21585,7 +21585,6 @@
 	    )
 	  );
 	};
-	
 	exports.default = AppLayout;
 
 /***/ },
@@ -27000,7 +26999,6 @@
 	var getChannel = function getChannel(name) {
 	  return _axios2.default.get('https://wind-bow.hyperdev.space/twitch-api/streams/' + name);
 	};
-	
 	exports.default = getChannel;
 
 /***/ },

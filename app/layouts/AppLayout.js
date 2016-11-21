@@ -34,5 +34,4 @@ let AppLayout = props => (
     </div>
     )
 )
-
 export default AppLayout
