@@ -4,6 +4,8 @@
   "description": "keeps track of my favorite twitch channels. If they are online or not and what are they playing.",
   "main": "index.js",
   "scripts": {
+    "postinstall" : "webpack",
+    "start": "nf start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jargan76",
@@ -25,6 +27,7 @@
   },
   "subdomain": "staging-twitch",
   "dependencies": {
+    "foreman": "2.0.0",
     "react-fontawesome": "^1.3.1"
   }
 }
