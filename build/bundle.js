@@ -26749,9 +26749,20 @@
 	                                'span',
 	                                { className: 'text-info' },
 	                                'FreeCodeCamp'
-	                            )
+	                            ),
+	                            ' '
 	                        ),
 	                        _react2.default.createElement(_reactFontawesome2.default, { name: 'link' })
+	                    ),
+	                    _react2.default.createElement(
+	                        'h4',
+	                        null,
+	                        'Because this is on GitHub'
+	                    ),
+	                    _react2.default.createElement(
+	                        'p',
+	                        null,
+	                        'The XML request is denied for security reasons. If you would like to fork and run on Node.js locally, it will work like a champ. I know there are workarounds that I could use. Most are pretty hacky and I\'m ready to move on. Now click below to check it out.'
 	                    ),
 	                    _react2.default.createElement(
 	                        'p',
@@ -26997,7 +27008,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var getChannel = function getChannel(name) {
-	  return _axios2.default.get('https://wind-bow.hyperdev.space/twitch-api/streams/' + name);
+	  return _axios2.default.get('https://wind-bow.gomix.me/twitch-api/streams/' + name);
 	};
 	exports.default = getChannel;
 
