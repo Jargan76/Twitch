@@ -9,4 +9,4 @@ Lets me know if they are online or not.
 Takes me straight to their Live feed.
 
 Check it out here =>
- [Jargan76 Twitch Viewer](http://jargan76.github.io/twitch)<=
+ [Jargan76 Twitch Viewer](https://jargan76.github.io/Twitch/#/)<=
