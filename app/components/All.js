@@ -1,6 +1,6 @@
 import React from'react'
 import Channels from './Channel'
-const players = [ "OgamingSC2", "quickybaby", "cretetion", "freecodecamp", "dantdm", "dantdm_thedimondminecart" ]
+const players = [ "OgamingSC2", "quickybaby", "cretetion", "paladinsgame", "dantdm", "dantdm_thedimondminecart" ]
 
 export default class All extends React.Component {
     render() {

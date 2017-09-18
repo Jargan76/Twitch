@@ -26755,16 +26755,6 @@
 	                        _react2.default.createElement(_reactFontawesome2.default, { name: 'link' })
 	                    ),
 	                    _react2.default.createElement(
-	                        'h4',
-	                        null,
-	                        'Because this is on GitHub'
-	                    ),
-	                    _react2.default.createElement(
-	                        'p',
-	                        null,
-	                        'The XML request is denied for security reasons. If you would like to fork and run on Node.js locally, it will work like a champ. I know there are workarounds that I could use. Most are pretty hacky and I\'m ready to move on. Now click below to check it out.'
-	                    ),
-	                    _react2.default.createElement(
 	                        'p',
 	                        { className: 'lead' },
 	                        _react2.default.createElement(
@@ -26815,7 +26805,7 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var players = ["OgamingSC2", "quickybaby", "cretetion", "freecodecamp", "dantdm", "dantdm_thedimondminecart"];
+	var players = ["OgamingSC2", "quickybaby", "cretetion", "paladinsgame", "dantdm", "dantdm_thedimondminecart"];
 	
 	var All = function (_React$Component) {
 	    _inherits(All, _React$Component);
@@ -27008,7 +26998,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var getChannel = function getChannel(name) {
-	  return _axios2.default.get('https://wind-bow.gomix.me/twitch-api/streams/' + name);
+	  return _axios2.default.get('http://crossorigin.me/https://wind-bow.gomix.me/twitch-api/streams/' + name, 'jsonp');
 	};
 	exports.default = getChannel;
 
